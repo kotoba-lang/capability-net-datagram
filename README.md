@@ -49,5 +49,5 @@ schema, limits, and per-backend qualification -- lives in
 authority/discovery descriptor; the kit is the runtime surface.
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
