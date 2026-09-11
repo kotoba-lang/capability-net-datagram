@@ -39,7 +39,7 @@ one datagram back, there is no connection to close."
 closed actor:host v0 catalog (neither the legacy `actor-host-capability-ids`
 map nor the `capability_contract.edn` 201+ wire-id registry). Registering it
 there is a separate change to that repository and is out of scope here. See
-`test/kotoba/capability/net/datagram_test.clj` for exactly what that means
+`test/kotoba/capability/net/datagram_test.cljk` for exactly what that means
 for `validate-manifest` today.
 
 The functional binding for `.kotoba` guests -- the typed request/result
